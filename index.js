@@ -1,8 +1,8 @@
 // def of ||: expr1 || expr2 -> if 'expr1' is true return 'expr1'
-//                         -> if 'expr1' is false return 'expr2'
+//                           -> if 'expr1' is false return 'expr2'
 
 // def of &&: expr1 && expr2 -> if 'expr1' is true return 'expr2'
-//                         -> if 'expr1' is false return 'expr1'
+//                           -> if 'expr1' is false return 'expr1'
 
 const test1 = (answer = '') => {
     let result = '';
